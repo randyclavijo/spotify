@@ -1,0 +1,5 @@
+<div class="history-page">
+    <!-- TODO: EN EL callbackData recive la data que viene del hijo -->
+    <app-search (callbackData)="receiveData($event)"></app-search>
+    <app-play-list-body [tracks]="listResults$ |async"></app-play-list-body>
+</div>

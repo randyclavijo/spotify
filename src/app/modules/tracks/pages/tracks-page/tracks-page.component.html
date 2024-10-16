@@ -1,0 +1,9 @@
+<div class="tracks-page">
+    <!-- section top (small) -->
+     <!-- 'title' es una variable de tipo input para la comunicacion de este componente padre con el componente hijo que es section-generic -->
+    <app-section-generic [dataTracks]="tracksTrending" [mode]="'small'"  [title]="'¡La mejor musica del mundo!'"></app-section-generic>
+
+<!-- section medium (big) -->
+    <app-section-generic [dataTracks]="tracksRandom" [mode]="'big'" [title]="'Lo mejor de electronica'"></app-section-generic>
+
+</div>
